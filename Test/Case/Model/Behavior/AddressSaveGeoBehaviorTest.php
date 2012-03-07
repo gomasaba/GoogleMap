@@ -91,7 +91,6 @@ class AddressSaveGeoBehaviorTestCase extends CakeTestCase {
 				0 => '130.3865333',
 				1 => '33.5775337',
 			),
-			'is_publish' => NULL,
 			),
 		);
 		$this->assertEqual($result,$expects);
@@ -127,7 +126,6 @@ class AddressSaveGeoBehaviorTestCase extends CakeTestCase {
 					0 => '139.6916481',
 					1 => '35.6891848',
 				),
-			'is_publish' => NULL,
 			),
 		);
 		$this->assertEqual($result,$expects);

@@ -18,7 +18,6 @@ class PgGeoFixture extends CakeTestFixture {
 		// 'point' => array('type' => 'point', 'null' => false),
 		// 'box' => array('type' => 'point', 'null' => false),
 		'point' => array('type' => 'string', 'null' => false),
-		'is_publish' => array('type' => 'datetime', 'null' => true),
 	);
 
 /**

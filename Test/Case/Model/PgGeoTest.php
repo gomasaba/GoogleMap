@@ -100,7 +100,6 @@ class PgGeoTestCase extends CakeTestCase {
 					0 => '100.9876541231',
 					1 => '20.1234567891',
 				),
-			'is_publish' => NULL,
 			)
 		);
 		$this->assertEqual($results,$expects);

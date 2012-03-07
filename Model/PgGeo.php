@@ -34,7 +34,7 @@ class PgGeo extends AppModel {
 
 		$db = $this->getDatasource();
 		foreach($data as $key=>$value){
-			if($key != 'point' && $key != 'box' ){
+			if($key != 'point'){
 				$data[$key] = $db->value($value);
 			}
 		}
