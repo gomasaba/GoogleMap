@@ -62,10 +62,10 @@ class GoogleMapHelper extends Helper {
 
 		$id = $this->value($settings['className'].'.id');
 		if(!empty($id)){
-			$latitude = $this->value($settings['className'].'.point.1');
-			$longitude = $this->value($settings['className'].'.point.0');
-			$marker_latitude = $this->value($settings['className'].'.point.1');
-			$marker_longitude = $this->value($settings['className'].'.point.0');
+			$latitude = $this->value($settings['className'].'.point.0');
+			$longitude = $this->value($settings['className'].'.point.1');
+			$marker_latitude = $this->value($settings['className'].'.point.0');
+			$marker_longitude = $this->value($settings['className'].'.point.1');
 			$zoom = $this->value($settings['className'].'.zoom');
 			if( !$latitude || !$longitude || !$marker_latitude || !$marker_longitude ){
 				$latitude = $this->value($settings['className'].'.latitude');

@@ -22,7 +22,7 @@ class PgGeo extends AppModel {
 		$data = $this->data[$this->alias];
 
 		if(array_key_exists('marker_longitude',$data) && array_key_exists('marker_latitude',$data)){
-			$data['point'] = 'point('. $data['marker_longitude'].','. $data['marker_latitude'] .')';
+			$data['point'] = 'point('. $data['marker_latitude'].','. $data['marker_longitude'] .')';
 			unset($data['longitude']);
 			unset($data['latitude']);
 			unset($data['marker_longitude']);
